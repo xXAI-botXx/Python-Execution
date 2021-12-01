@@ -1,0 +1,10 @@
+Vorbereitung:
+- Schriftgröße vergrößern
+- Zellenoutput leeren
+
+----------------------------------
+- python file.py
+
+- python -m py_compile file.py
+
+- uncompyle6 file.pyc
