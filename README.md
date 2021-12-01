@@ -10,6 +10,15 @@ In Detail:
                  compiling
 Python-Code -> AST -> CPython-Byte-Code
 </pre>
+
+The Interpreter compiles the Python-Source-Code in a Byte-Code and executes this Byte-Code line by line. The standard interpreter is called CPython.<br>
+The compile-step consists of the building of the AST (abstract syntax tree) and the compiling of the AST.<br>
+The AST is the Python-Code in a tree-structure.<br>
+For a better understanding and a practical use, see the [ast_example.ipynb](./ast_example.ipynb).<br>
+<br>
+The CPython-Byte-Code can be reading and used for analysis with the dis module (disassemble).<br>
+For a short look see the [dis_example.ipynb](./dis_example.ipynb).
+
 ---
 
 Here is my [presentation](https://prezi.com/view/auF8RoiBnLPW4IlwHwg0/).
